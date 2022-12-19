@@ -1,3 +1,31 @@
+## v7.0.0 - 2022-12-19
+
+### [7.0.0](https://github.com/MaferMazu/eox-tenant/compare/v6.3.0...v7.0.0) (2022-12-19)
+
+#### ⚠ BREAKING CHANGES
+
+- drop unnecessary certificate proxy
+- 
+- feat: add pipeline step that filter render certificates by organization
+- 
+- refactor: drop unnecessary backend
+- 
+- fix: fix quality tests
+- 
+
+#### Bug Fixes
+
+- checkout ([4df8470](https://github.com/MaferMazu/eox-tenant/commit/4df84707bce6c8d5a18e131a597376577887c2b9))
+- pipeline ([35cdf2e](https://github.com/MaferMazu/eox-tenant/commit/35cdf2e0feb67b65f7c79e8ec501409b7a8bd2f7))
+
+#### Performance Improvements
+
+- filter certificates by org and remove certificate proxy ([#157](https://github.com/MaferMazu/eox-tenant/issues/157)) ([773ac40](https://github.com/MaferMazu/eox-tenant/commit/773ac4046dc5913efee7cc247985a3625a0cdb64))
+
+#### Documentation
+
+- readme ([9307e51](https://github.com/MaferMazu/eox-tenant/commit/9307e51394b2bd466335853ab681442928a7adba))
+
 ## v6.3.0 - 2022-11-22
 
 ### [6.3.0](https://github.com/eduNEXT/eox-tenant/compare/v6.2.0...v6.3.0) (2022-11-22)
@@ -238,10 +266,12 @@
 - 
 - 
 - 
+- 
 
 ### Removed
 
 - ### Removed hawthorn support
+- 
 - 
 - 
 - 
@@ -253,6 +283,7 @@
 
 - Add tests in python 3.5
 - ### Features command to move SignUpSources from a site to another site.
+- 
 - 
 - 
 - 
@@ -269,6 +300,7 @@
 ### Fixed
 
 - ### Fixed performance issues with GeneratedCertificates proxy.
+- 
 - 
 - 
 - 
