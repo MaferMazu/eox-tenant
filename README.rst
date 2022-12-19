@@ -145,3 +145,4 @@ information – it also contains guidelines for how to maintain high code
 quality, which will make your contribution more likely to be accepted.
 
 .. _CONTRIBUTING: https://github.com/eduNEXT/eox-tenant/blob/master/CONTRIBUTING.rst
+
